@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeDev Factory | SafeTabCraft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo-container">
+      <img src="assets/icon_128.png" alt="SafeDev Factory Logo">
+      SafeDev Factory
+    </div>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#roadmap">Coming Soon</a>
+      <a href="#future-products">Future Products</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>SafeTabCraft</h1>
+    <p>Instantly tame browser chaos. One-click duplicate removal, automatic domain grouping, and lightning-fast tab search. Zero bloat.</p>
+    <a href="https://chrome.google.com/webstore" target="_blank" class="btn">Download for Chrome</a>
+    <img src="assets/marquee_smart.jpg" alt="SafeTabCraft Promo" class="hero-image">
+  </header>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Core Features</h2>
+    <div class="grid">
+      <div class="glass-card">
+        <h3>🗑️ Close Duplicates</h3>
+        <p>Automatically detects and closes tabs with the same URL, freeing up RAM instantly and keeping your workspace clean.</p>
+      </div>
+      <div class="glass-card">
+        <h3>📑 Group Tabs</h3>
+        <p>Neatly groups your open tabs by their website (hostname), making it incredibly easy to navigate between related pages.</p>
+      </div>
+      <div class="glass-card">
+        <h3>✨ Clean & Group</h3>
+        <p>Do both at once! A single click closes all duplicate tabs and groups the remaining ones logically using Chrome's native Tab Groups.</p>
+      </div>
+      <div class="glass-card">
+        <h3>🔍 Quick Tab Search</h3>
+        <p>A live search bar in the popup to filter and instantly jump to any open tab across all windows. <em>(Pro Feature)</em></p>
+      </div>
+      <div class="glass-card">
+        <h3>🪟 Cross-Window Support</h3>
+        <p>Extend tab cleaning and grouping across all open browser instances, either per-window or by consolidating them. <em>(Pro Feature)</em></p>
+      </div>
+      <div class="glass-card">
+        <h3>⚡ Keyboard Shortcuts</h3>
+        <p>Trigger cleanup, grouping, and search without ever clicking the mouse. Power-user ready. <em>(Pro Feature)</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap Section -->
+  <section id="roadmap">
+    <h2>Coming Soon to SafeTabCraft</h2>
+    <div class="grid">
+      <div class="glass-card roadmap-card">
+        <h3>🧠 AI-Powered Grouping</h3>
+        <p>Use AI to intelligently group tabs based on their content and context, not just the URL domain.</p>
+      </div>
+      <div class="glass-card roadmap-card">
+        <h3>💾 Session Save & Restore</h3>
+        <p>Save snapshots of your open tabs or specific groups (e.g., "Work Setup" or "Research") and restore them with a single click.</p>
+      </div>
+      <div class="glass-card roadmap-card">
+        <h3>🔋 Memory Saver</h3>
+        <p>Automatically suspend tabs that have been idle for a designated period to free up system memory.</p>
+      </div>
+      <div class="glass-card roadmap-card">
+        <h3>⏱️ Scheduled Automation</h3>
+        <p>Set automatic tab cleanup and grouping to run on a set schedule or at specific intervals seamlessly in the background.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Future Products Section -->
+  <section id="future-products">
+    <h2>Future Products</h2>
+    <div class="grid" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;">
+      <div class="glass-card">
+        <h3 style="color: var(--text-main); font-size: 1.8rem; margin-bottom: 0.5rem;">web2mindMap</h3>
+        <span style="display: inline-block; padding: 4px 12px; background: rgba(6, 182, 212, 0.2); color: var(--accent-cyan); border-radius: 20px; font-size: 0.8rem; margin-bottom: 1rem;">In Development</span>
+        <p>Our next major product, <strong>web2mindMap</strong>, will revolutionize how you capture and connect information from the web. Transform unstructured web research, articles, and data into visual, interconnected mind maps automatically. Stay tuned for early access announcements!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="glass-card" style="max-width: 600px; margin: 0 auto;">
+      <p style="text-align: center; margin-bottom: 2rem;">Have a question, found a bug, or want to propose a new feature? We'd love to hear from you!</p>
+      
+      <form class="contact-form" action="https://formspree.io/f/xaqrndlp" method="POST">
+        <div class="form-group">
+          <label for="topic">What is this regarding?</label>
+          <select id="topic" name="topic" required>
+            <option value="General Support">General Support</option>
+            <option value="Feature Proposal">Propose a New Feature</option>
+            <option value="Bug Report">Bug Report</option>
+            <option value="web2mindMap Inquiry">web2mindMap Inquiry</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Optional">
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required rows="5" placeholder="How can we help?"></textarea>
+        </div>
+        
+        <button type="submit" class="btn" style="width: 100%; margin-top: 1rem;">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 SafeDev Factory. All rights reserved.</p>
+    <div style="margin-top: 1rem;">
+      <a href="privacy.html">Privacy Policy</a> &bull; 
+      <a href="mailto:support@safedevfactory.online">support@safedevfactory.online</a>
+    </div>
+  </footer>
+
+</body>
+</html>
